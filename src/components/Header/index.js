@@ -24,6 +24,7 @@ class Header extends React.Component {
   };
 
   render() {
+    // eslint-disable-next-line react/prop-types
     const { title } = this.props;
     return (
       <View style={styles.container}>

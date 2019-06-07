@@ -72,8 +72,8 @@ export default class Welcome extends React.Component {
             {loading ? (
               <ActivityIndicator size="small" color="#FFF" />
             ) : (
-              <Text style={styles.buttonText}>Prosseguir</Text>
-            )}
+                <Text style={styles.buttonText}>Prosseguir</Text>
+              )}
           </TouchableOpacity>
         </View>
       </View>
