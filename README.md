@@ -1,10 +1,7 @@
 <h1>Buscador gitHub </h1>
 
 <p>
-Esse projeto tem como objetivo buscar os repositórios e organizações do usuário digitado na tela de Welcome.
-O fluxo do app é o seguinte: o usuário digita o seu usuário e
-salva na memória do dispositivo. Na tela de repositórios é listado todos os repositórios públicos do usuário e também informações importantes de cada um. Do mesmo modo funciona a tela de
-Organizações acessível pelo menu inferior.
+O presente projeto simula um buscador de repositórios. Ele tem como objetivo listar os repositórios e organizações do usuário digitado. O fluxo do app é o seguinte : Na tela de Welcome, o usuário digita o username, uma requisição é feita para saber se o usuário realmente existe no github. Caso o usuário exista, o username digitado no <TextInput /> é salvo na memória do dispositivo. Caso não exista, uma mensagem de erro é apresentada. De posse do username, a tela de repositórios realiza a listagem de repositórios e organizações. Os repositórios exibem informações como números de estrelas e dentre outras informações.
 </p>
 
 <h2>Organização do código </h2>
@@ -16,12 +13,14 @@ Na parte pages, encontramos arquivos relacionadas as páginas do aplicativo. Cad
 da aplicação, como cores, métricas e dentre outros.
 </p>
 
+<hr>
 
-Instruções:
+Instruções de instalação do projeto:
 <ul>
-<li>Para simular o app, é necessário ter um ambiente de desenvolvimento react-native bem configurado. Segue o melhor tutorial para essa configuração https://docs.rocketseat.dev/ambiente-react-native/introducao </li>
-<li> Após ter configurado, execute um yarn install e após a instalação dos pacotes, execute <b> react-native run-android </b> na pasta do projeto e acesse o app no emulador. </li>
- </ul>
+  <li>Para simular o app, é necessário ter um ambiente de desenvolvimento react-native bem configurado. Segue o melhor tutorial para essa configuração https://docs.rocketseat.dev/ambiente-react-native/introducao </li>
+  <li> Após ter configurado, execute um <b>yarn install</b> e após a instalação dos pacotes, execute <b> react-native run-android </b> na pasta do projeto e acesse o app no emulador. </li>
+</ul>
+
 <hr>
 <img src="assets/1.png" >
 <img src="assets/2.png" >
