@@ -1,4 +1,11 @@
-Projeto react-native
+<h1>Buscador gitHub </h1>
+
+<p>
+Esse projeto tem como objetivo buscar os repositórios e organizações do usuário digitado na tela de Welcome.
+O fluxo do app é o seguinte: o usuário digita o seu usuário e
+salva na memória do dispositivo. Na tela de repositórios é listado todos os repositórios públicos do usuário e também informações importantes de cada um. Do mesmo modo funciona a tela de
+Organizações acessível pelo menu inferior.
+</p>
 
 Instruções:
 <ul>
