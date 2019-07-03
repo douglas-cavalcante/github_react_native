@@ -7,7 +7,7 @@ salva na memória do dispositivo. Na tela de repositórios é listado todos os r
 Organizações acessível pelo menu inferior.
 </p>
 
-<h2>Organizaao do código </h2>
+<h2>Organização do código </h2>
 
 <p>
 Os arquivos de configurações do próprio react-native estão na raiz do projeto. O código desenvolvido está na pasta src.
