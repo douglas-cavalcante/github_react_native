@@ -7,6 +7,16 @@ salva na memória do dispositivo. Na tela de repositórios é listado todos os r
 Organizações acessível pelo menu inferior.
 </p>
 
+<h2>Organizaao do código </h2>
+
+<p>
+Os arquivos de configurações do próprio react-native estão na raiz do projeto. O código desenvolvido está na pasta src.
+A pasta components armazena os componentes reutilizáveis da aplicação. Na parte config, encontramos arquivos de configuração de ferramentas, como por exemplo o Reactotron(debug).
+Na parte pages, encontramos arquivos relacionadas as páginas do aplicativo. Cada página tem uma estrutura com um arquivo index.js e styles.js. Na parte styles, temos arquivos globais
+da aplicação, como cores, métricas e dentre outros.
+</p>
+
+
 Instruções:
 <ul>
 <li>Para simular o app, é necessário ter um ambiente de desenvolvimento react-native bem configurado. Segue o melhor tutorial para essa configuração https://docs.rocketseat.dev/ambiente-react-native/introducao </li>
