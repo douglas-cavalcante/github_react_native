@@ -6,12 +6,15 @@ O presente projeto simula um buscador de repositórios. Ele tem como objetivo li
 
 <h2>Organização do código </h2>
 
-<p>
-Os arquivos de configurações do próprio react-native estão na raiz do projeto. O código desenvolvido está na pasta src.
-A pasta components armazena os componentes reutilizáveis da aplicação. Na parte config, encontramos arquivos de configuração de ferramentas, como por exemplo o Reactotron(debug).
-Na parte pages, encontramos arquivos relacionadas as páginas do aplicativo. Cada página tem uma estrutura com um arquivo index.js e styles.js. Na parte styles, temos arquivos globais
-da aplicação, como cores, métricas e dentre outros.
-</p>
+<p>O código react encontra-se dentro de src. Na raiz da pasta src, encontramos o arquivo componente App que envolve toda aplicação.
+
+<ul>
+  <li>components -> Armazena os componentes reutilizáveis da aplicação. Ex: Header.js </li>
+  <li>services -> armazena dados de serviços externos , como por exemplo a URL_BASE da api.</li>
+  <li>pages -> armazena as telas do app. Cada tela contém um arquivo index.js e um style.js</li>
+  <li>styles -> armazena estilos globais da aplicação. Ex: cores, métricas e etc ... </li>
+  <li>config -> armazena configuraçẽos de ferramentas, como por exemplo o Reactotron(Debug do código)</li>
+</ul>
 
 <hr>
 
